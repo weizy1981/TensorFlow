@@ -1,0 +1,7 @@
+docker pull tensorflow/tensorflow
+docker run -it -p 8888:8888 tensorflow/tensorflow
+docker stop tensorflow/tensorflow
+docker ps
+docker kill
+
+http://localhost:8888/
